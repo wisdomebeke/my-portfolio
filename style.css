@@ -1,0 +1,256 @@
+        .head {
+            display: flex;
+            justify-content: center;
+            padding: 20px 30px;
+            text-align: center;
+        }
+        .head, li {
+            
+            list-style-type: none;
+            padding: 20px;
+            text-align: center;
+        }
+        .head, li, a {
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: black;
+            color: grey;
+            cursor: pointer;
+        }
+        #banner_image {
+            width: 100%;
+            height: 70vh;
+            margin-bottom: 2%;
+            opacity: 0.1;
+        }
+        .my_article {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0px;
+        }
+
+        .column1 {
+            color:black;
+            width: 50%
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+        }
+
+        .column {
+            text-align: center;
+            width: 50%;
+            padding: 1%;
+        }
+        
+       
+       
+        .foot{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .foot, .column3{
+            background-color: grey;
+            width:100%;
+        }
+        .foot, .column4{
+            background-color: black;
+            width:100%;
+        }
+        .foot, .column5{
+            background-color: grey ;
+            
+            width:100%;
+        }
+        form input[type=text]{
+            width: 15%;
+            align-self:center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 2.5px;
+            color: white;
+            background-color: white;
+        }
+        form button{
+            padding: 8.5px;
+            color: white;
+            position: relative;
+            background-color: black;
+            cursor: pointer;
+            width: 20%;
+            font-size: larger;
+            font-family:serif;
+            margin-top: 3%;
+        }
+        form button:hover{
+            background-color: light;
+        }
+        form button:hover{
+            background-color: lightgrey;
+        }
+        .column4 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:black
+        }
+        h4{
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h5{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* about banner picture */
+
+        .about_banner{
+            width: 100%;
+            height: 80%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            margin-bottom: 1%;
+        }
+        .about_section{
+            width: 100%;
+            height: 100px;
+            background-color: grey;
+            color:white;
+            text-align: center;
+            padding:5px 0px;
+        }
+        .column{
+            width: 50%
+        }
+        /* gallery */
+
+        *{
+            box-sizing: border-box;
+        }
+        #container:after {
+            content:"";
+            direction: table;
+            clear: both;
+            height: 30vh;
+        }
+        .item-grid {
+            float: left;
+            width: 33.3%;
+            pad: 10px;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-size:100%;
+        }
+
+        #form {
+            color: white;
+            text-align: center;
+            font-size: x-large;
+            margin: 20px;
+            padding: 20px;
+            background-image: url(image/in.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .minifooter{
+            background-color: black;
+            color: white;
+            font-size: x-large;
+            text-align: center;
+            padding: 1px;
+            width: 100%;
+        }
+        .column1 li:hover{
+            cursor: pointer;
+            background-color:white;        
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: xx-large;
+            text-align: center;
+        }
+        label input[type=text]{
+            margin-top: 1%;
+            width: 50%;
+            height: 5vh;
+            margin-bottom: 2%;
+
+        }
+        label input[type=number]{
+            height: 5vh;
+            width: 50%;
+            margin-bottom: 2%;
+        }
+        label input[type=email]{
+            height: 5vh;
+            width: 50%;
+            margin-bottom: 2%;
+        }
+        label textarea{
+            height: 15vh;
+            width: 50%;
+        }
+        label :placeholder-shown{
+            font-size: x-large;
+        }
+/* gallery style */
+*{
+    box-sizing: border-box;
+}
+#container::after{
+    content:"";
+    display:table ;
+    clear: both;
+}
+.container {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+    background-color: grey;
+}
+
+.container:hover .overlay{
+    opacity: 1;
+}
+
+.textlay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+/* signup on wordpress.com */
+
